@@ -225,13 +225,12 @@
     </script>
     <?php
 
-    $slider1=$_POST["slider1"];
-    
-    $slider2=$_POST["slider2"];
-    $slider3=$_POST["slider3"];
-    $slider4=$_POST["slider4"];
-    $slider5=$_POST["slider5"];
-    $slider6=$_POST["slider6"];
+     $slider1=$_POST["slider1"] ?? "";
+     $slider2=$_POST["slider2"] ?? "";
+     $slider3=$_POST["slider3"]?? "";
+     $slider4=$_POST["slider4"]?? '';
+     $slider5=$_POST["slider5"]?? "";
+     $slider6=$_POST["slider6"] ?? "";
 
     
     
